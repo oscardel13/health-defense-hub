@@ -11,7 +11,7 @@ export default function Home() {
         }}
       >
         <div className="absolute inset-0 bg-[#C1B2AB] opacity-50"></div>
-        <div className="relative z-10 text-center px-64">
+        <div className="relative z-10 text-center px-10 lg:px-64">
           <h1 className="text-6xl text-[#101C42] font-medium">
             Empower Yourself with Self-Defense & Martial Arts
           </h1>
@@ -21,9 +21,9 @@ export default function Home() {
         </div>
       </div>
       {/* About Section */}
-      <div className="flex flex-col items-center bg-[#646F58] w-screen py-20 px-40">
+      <div className="flex flex-col items-center bg-[#646F58] w-screen py-20 px-10 lg:px-40">
         <h2 className="text-white text-4xl font-semibold">About</h2>
-        <div className="flex flex-row justify-between gap-40">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-between gap-8 xl:gap-40 mt-12">
           <Image src="/homepage.jpg" alt="about" width={500} height={300} />
           <p className="text-white text-lg mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </div>
       {/* martial arts and self-defense differences section */}
-      <div className="flex flex-col items-center-screen py-20 px-40">
+      <div className="flex flex-col items-center-screen py-20 px-10 lg:px-40">
         <h2 className="text-[#6F0B21] text-center text-4xl font-semibold">
           The differences between martial arts and self-defense
         </h2>

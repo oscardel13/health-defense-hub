@@ -11,7 +11,7 @@ export default function Home() {
         }}
       >
         <div className="absolute inset-0 bg-[#C1B2AB] opacity-50"></div>
-        <div className="relative z-10 text-center px-64">
+        <div className="relative z-10 text-center px-10 lg:px-64">
           <h1 className="text-6xl text-[#101C42] font-medium">Martial Arts</h1>
           <h3 className="text-3xl text-[#101C4295] font-medium mt-4">
             Unleash Your Inner Strength
@@ -19,20 +19,19 @@ export default function Home() {
         </div>
       </div>
       {/* Introduction Section */}
-      <div className="flex flex-col items-center w-screen py-20 px-40 text-black">
+      <div className="flex flex-col items-center w-screen py-20 px-10 lg:px-40 text-black">
         <h2 className="text-4xl font-semibold">Introduction</h2>
         <p className="text-lg mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         </p>
       </div>
-      {/* Choosing a school Sectino */}
       {/* About Section */}
-      <div className="flex flex-col items-center bg-[#646F58] w-screen py-20 px-40">
+      <div className="flex flex-col items-center bg-[#646F58] w-screen py-20 px-10 lg:px-40">
         <h2 className="text-white text-4xl font-semibold">
           Types of Martial Arts
         </h2>
-        <div className="flex flex-row justify-between gap-40">
+        <div className="flex flex-col xl:flex-row items-center xl:justify-between gap-8 xl:gap-40 mt-12">
           <Image src="/homepage.jpg" alt="about" width={500} height={300} />
           <p className="text-white text-lg mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
@@ -40,6 +39,16 @@ export default function Home() {
             ad
           </p>
         </div>
+      </div>
+      {/* Choosing a school Section */}
+      <div className="flex flex-col items-center-screen py-20 px-10 lg:px-40">
+        <h2 className="text-black text-center text-4xl font-semibold">
+          Tips in Choosing Martial Arts School
+        </h2>
+        <p className="text-black text-lg mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        </p>
       </div>
     </main>
   );

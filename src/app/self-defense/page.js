@@ -11,7 +11,7 @@ export default function Home() {
         }}
       >
         <div className="absolute inset-0 bg-[#C1B2AB] opacity-50"></div>
-        <div className="relative z-10 text-center px-64">
+        <div className="relative z-10 text-center px-64 px-10 lg:px-64">
           <h1 className="text-6xl text-[#101C42] font-medium">Self-Defense</h1>
           <h3 className="text-3xl text-[#101C4295] font-medium mt-4">
             Learn, Train, Protect – A Guide to Personal Safety and Wellness
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </div>
       {/* About Section */}
-      <div className="flex flex-col items-center w-screen py-20 px-40 text-black">
+      <div className="flex flex-col items-center w-screen py-20 px-10 lg:px-40 text-black">
         <h2 className="text-4xl font-semibold">Tips for Self-Defense</h2>
         <p className="text-lg mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
