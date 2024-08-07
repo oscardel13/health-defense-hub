@@ -1,3 +1,4 @@
+import InfoCard from "@/components/info-card/info-card.component";
 import Image from "next/image";
 
 export default function Home() {
@@ -37,10 +38,77 @@ export default function Home() {
         <h2 className="text-[#6F0B21] text-center text-4xl font-semibold">
           The differences between martial arts and self-defense
         </h2>
-        <p className="text-white text-lg mt-4">
+        <p className="text-black text-lg mt-4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         </p>
+        <div className="flex flex-col gap-10 mt-10 items-center">
+          <div className="flex flex-row gap-5 lg:gap-20">
+            <InfoCard title={"Self-Defense"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+
+            <InfoCard title={"Martial Arts"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+          </div>
+
+          <div className="flex flex-row gap-5 lg:gap-20">
+            <InfoCard title={"Self-Defense"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+
+            <InfoCard title={"Martial Arts"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+          </div>
+
+          <div className="flex flex-row gap-5 lg:gap-20">
+            <InfoCard title={"Self-Defense"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+
+            <InfoCard title={"Martial Arts"}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            </InfoCard>
+          </div>
+
+          <div className="flex flex-row gap-5 lg:gap-20">
+            <a
+              href="/self-defense"
+              className={`flex flex-col w-full md:w-80 lg:w-96 xl:w-[450px] p-5 border-black border rounded-3xl bg-[#6F0B21] items-center hover:bg-[#6F0B2180]`}
+            >
+              <span href="/self-defense" className="text-3xl font-medium">
+                Visit Page
+              </span>
+            </a>
+
+            <a
+              href="/martial-arts"
+              className={`flex flex-col w-full md:w-80 lg:w-96 xl:w-[450px] p-5 border-black border rounded-3xl bg-[#101C42] items-center hover:bg-[#101C4280]`}
+            >
+              <span className="text-3xl font-medium">Visit Page</span>
+            </a>
+          </div>
+        </div>
       </div>
     </main>
   );

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import TipCard from "../../components/tip-card/tip-card.component";
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
         </div>
       </div>
       {/* Choosing a school Section */}
-      <div className="flex flex-col items-center-screen py-20 px-10 lg:px-40">
+      <div className="flex flex-col items-center-screen py-20 px-10 lg:px-40 text-black">
         <h2 className="text-black text-center text-4xl font-semibold">
           Tips in Choosing Martial Arts School
         </h2>
@@ -49,6 +50,52 @@ export default function Home() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
         </p>
+        <div className="flex flex-col gap-10 mt-10">
+          <TipCard title="1. Self-Awareness of Surroundings">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+          </TipCard>
+
+          <TipCard title="2. Self-Awareness of Surroundings">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+          </TipCard>
+
+          <TipCard title="3. Self-Awareness of Surroundings">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut
+            </p>
+          </TipCard>
+        </div>
       </div>
     </main>
   );
