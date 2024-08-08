@@ -138,11 +138,11 @@ export default function Home() {
           Selecting the right martial arts school is crucial for achieving your
           personal goals and ensuring a positive and effective training
           experience. A good school will not only offer quality instruction but
-          also provide a supportive and motivating environment. It’s important
-          to consider factors such as the instructor's qualifications, the
-          school's reputation, class schedules, and the overall atmosphere. The
-          right fit will help you stay committed and make the most out of your
-          training journey.
+          also provide a supportive and motivating environment. It&apos;s
+          important to consider factors such as the instructor&apos;s
+          qualifications, the school&apos;s reputation, class schedules, and the
+          overall atmosphere. The right fit will help you stay committed and
+          make the most out of your training journey.
         </p>
         <p className="text-black text-lg mt-4 max-w-3xl">
           If you’re looking for additional resources to complement your
@@ -156,7 +156,8 @@ export default function Home() {
           is an excellent site. It offers valuable information on exercises,
           conditioning, and techniques across various disciplines. With a range
           of instructional videos and detailed guidance, it can be a great
-          supplement if you're looking to enhance your training outside the gym.
+          supplement if you&apos;re looking to enhance your training outside the
+          gym.
         </p>
         <div className="flex flex-col gap-10 mt-10 max-w-3xl">
           <TipCard title="1. Instructor Credentials">

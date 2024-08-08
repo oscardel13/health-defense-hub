@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <p className="text-white text-lg mt-4 max-w-md">
-            Welcome! I'm a software engineer and martial arts enthusiast
+            Welcome! I&apos;m a software engineer and martial arts enthusiast
             dedicated to promoting health and wellness through martial arts and
             self-defense education. This website aims to provide valuable
             information and resources to enhance your fitness and impart
@@ -78,10 +78,11 @@ export default function Home() {
           Many people believe that learning martial arts is the same as learning
           self-defense. While martial arts originated as self-defense systems,
           they often focus on techniques from a specific time and place. These
-          skills don’t always translate well to modern-day needs. Instead of
-          relying on martial arts moves, self-defense techniques are tailored to
-          address real-world threats effectively. Martial arts and self-defense
-          each have their strengths and unique benefits. Here are a few:
+          skills don&apos;t always translate well to modern-day needs. Instead
+          of relying on martial arts moves, self-defense techniques are tailored
+          to address real-world threats effectively. Martial arts and
+          self-defense each have their strengths and unique benefits. Here are a
+          few:
           <br />
           <br />
           Martial arts and self-defense each have their strengths and unique
