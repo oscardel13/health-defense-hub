@@ -14,7 +14,7 @@ export default function Home() {
         <div className="relative z-10 text-center px-64 px-10 lg:px-64">
           <h1 className="text-6xl text-[#101C42] font-medium">Self-Defense</h1>
           <h3 className="text-3xl text-[#101C4295] font-medium mt-4">
-            Learn, Train, Protect – A Guide to Personal Safety and Wellness
+            Mastering Self-Defense: Skills for Everyday Safety
           </h3>
         </div>
         <div className="absolute right-0 bottom-0 pr-5 pb-1 text-black font-medium">
