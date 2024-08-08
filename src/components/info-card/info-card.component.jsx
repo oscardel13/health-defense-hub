@@ -7,7 +7,7 @@ export default function InfoCard({ children, title }) {
   }
   return (
     <div
-      className={`flex flex-col w-2/3 md:w-80 lg:w-96 xl:w-[450px] p-5 pb-10 gap-5 justify-start border-black border rounded-3xl ${bgColor}`}
+      className={`flex flex-col md:w-80 lg:w-96 xl:w-[450px] p-5 pb-10 gap-5 justify-start border-black border rounded-3xl ${bgColor}`}
     >
       <h4 className="text-2xl font-semibold">{title}</h4>
       {children}
